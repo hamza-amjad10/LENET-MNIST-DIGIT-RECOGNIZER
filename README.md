@@ -19,12 +19,10 @@ The backend is powered by **Flask** and the frontend uses **Streamlit** for real
 
 
 
-lenet-mnist-digit-recognizer/
-│
-├── LeNet_MNIST_model.h5 # Trained LeNet CNN model
-├── Model_Code.ipynb # Flask API server
-├── Web_App.py # Streamlit frontend
-└── README.md
+## LeNet_MNIST_model.h5 # Trained LeNet CNN model
+## Model_Code.ipynb # Flask API server
+## Web_App.py # Streamlit frontend
+## README.md
 
 
 ---
