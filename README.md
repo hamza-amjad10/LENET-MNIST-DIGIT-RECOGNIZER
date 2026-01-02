@@ -24,7 +24,6 @@ lenet-mnist-digit-recognizer/
 ├── LeNet_MNIST_model.h5 # Trained LeNet CNN model
 ├── Model_Code.ipynb # Flask API server
 ├── Web_App.py # Streamlit frontend
-├── requirements.txt # Python dependencies
 └── README.md
 
 
@@ -33,9 +32,8 @@ lenet-mnist-digit-recognizer/
 ## Installation
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/<your-username>/lenet-mnist-digit-recognizer.git
-cd lenet-mnist-digit-recognizer
+
+git clone https://github.com/hamza-amjad10/LENET-MNIST-DIGIT-RECOGNIZER.git
 
 
 Create and activate virtual environment
@@ -45,19 +43,6 @@ source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 
 
-Install dependencies
-
-pip install -r requirements.txt
-
-Run the Flask API
-python app.py
-
-
-API endpoint: http://localhost:5000/predict
-
-Method: POST
-
-File parameter: file (image)
 
 Run the Streamlit Frontend
 streamlit run Web_App.py
