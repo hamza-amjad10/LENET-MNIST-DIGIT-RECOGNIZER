@@ -10,14 +10,18 @@ A web application for recognizing handwritten digits (0-9) using the LeNet convo
 - Built with Python, TensorFlow/Keras, Flask, and Streamlit
 
 ## Project Structure
+
 LeNet_MNIST_model.h5          # Trained LeNet CNN model  
+
 Model_Code.ipynb               # Notebook / Flask API server code  
+
 Web_App.py                     # Streamlit frontend  
+
 README.md                      # Project documentation  
 
 ## Installation
 1. Clone the repository  
-```bash
+
 git clone https://github.com/hamza-amjad10/LENET-MNIST-DIGIT-RECOGNIZER.git
 cd LENET-MNIST-DIGIT-RECOGNIZER
 Create and activate virtual environment
@@ -31,13 +35,12 @@ source venv/bin/activate
 venv\Scripts\activate
 Install dependencies
 
-bash
-Copy code
-pip install -r requirements.txt
+
+
 Run the Streamlit Frontend
-bash
-Copy code
+
 streamlit run Web_App.py
+
 Upload a handwritten digit image
 
 Click Predict to see the predicted digit and confidence
@@ -85,6 +88,6 @@ Loss: sparse_categorical_crossentropy
 
 Test Accuracy: ~98.2%
 
-Author
-Hamza Amjad
-Full-stack Developer | AI & Machine Learning Enthusiast
+## Author
+Hamza Amjad  
+AI, Machine Learning, NLP & Deep Learning Enthusiast
