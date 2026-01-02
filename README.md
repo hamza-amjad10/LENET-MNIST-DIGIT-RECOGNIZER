@@ -19,10 +19,10 @@ The backend is powered by **Flask** and the frontend uses **Streamlit** for real
 
 
 
-## LeNet_MNIST_model.h5 # Trained LeNet CNN model
-## Model_Code.ipynb # Flask API server
-## Web_App.py # Streamlit frontend
-## README.md
+LeNet_MNIST_model.h5 # Trained LeNet CNN model
+Model_Code.ipynb # Flask API server
+Web_App.py # Streamlit frontend
+README.md
 
 
 ---
@@ -52,7 +52,7 @@ Click Predict to see the predicted digit and confidence
 
 The progress bar shows model’s confidence percentage
 
-API Usage Example
+**API Usage Example**
 import requests
 from PIL import Image
 import io
@@ -91,3 +91,8 @@ Optimizer: Adam
 Loss: sparse_categorical_crossentropy
 
 Test Accuracy: ~98.2%
+
+
+## Author
+Hamza Amjad
+Full-stack Developer | AI & Machine Learning Enthusiast
