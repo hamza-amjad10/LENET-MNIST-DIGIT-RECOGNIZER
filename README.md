@@ -40,12 +40,15 @@ git clone https://github.com/hamza-amjad10/LENET-MNIST-DIGIT-RECOGNIZER.git
 Create and activate virtual environment
 
 python -m venv venv
+
 source venv/bin/activate   # Linux/Mac
+
 venv\Scripts\activate      # Windows
 
 
 
 Run the Streamlit Frontend
+
 streamlit run Web_App.py
 
 
@@ -67,7 +70,9 @@ img.save(img_bytes, format="PNG")
 img_bytes.seek(0)
 
 files = {'file': img_bytes}
+
 response = requests.post("http://localhost:5000/predict", files=files)
+
 print(response.json())
 
 
