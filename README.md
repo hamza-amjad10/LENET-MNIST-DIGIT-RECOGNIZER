@@ -56,6 +56,7 @@ Click Predict to see the predicted digit and confidence
 The progress bar shows model’s confidence percentage
 
 **API Usage Example**
+
 import requests
 from PIL import Image
 import io
@@ -97,5 +98,7 @@ Test Accuracy: ~98.2%
 
 
 ## Author
+
 Hamza Amjad
+
 Full-stack Developer | AI & Machine Learning Enthusiast
